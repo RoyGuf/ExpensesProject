@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}{% endblock %}
+{% block content %}
+    <ul>
+        {% for e in exp %}
+            <li>{{ e.title }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
