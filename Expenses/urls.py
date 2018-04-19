@@ -29,7 +29,7 @@ router.register(r'category', CategoryViewSet, base_name='category')
 
 urlpatterns = [
     url(r'^api/', include(router.urls)),
-    path('expense/', include('Expenses.urls')),
+    path('expense/', include('ExpenseApp.urls')),
     url(r'admin/', admin.site.urls),
     url(r'^', views.exp, name='exp'),
 ]

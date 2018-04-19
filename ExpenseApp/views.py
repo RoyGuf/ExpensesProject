@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Expense, Category, Select
+from .models import Expense, Category
 
 from rest_framework import viewsets
 from rest_framework.response import Response
@@ -20,5 +20,5 @@ class ExpenseViewSet(viewsets.ModelViewSet):
     serializer_class = ExpensesSerialezer
 
 class CategoryViewSet(viewsets.ModelViewSet):
-    queryset = Categoey.objects.all()
+    queryset = Category.objects.all()
     serializer_class = CategorySerialezer

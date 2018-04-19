@@ -77,7 +77,8 @@ module.exports = function(proxy, allowedHost) {
     headers: {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-      'Access-Control-Allow-Credentials': true
+      'Access-Control-Allow-Credentials': true,
+      "Access-Control-Allow-Methods": "GET,HEAD,OPTIONS,POST,PUT",
     },
     overlay: false,
     historyApiFallback: {

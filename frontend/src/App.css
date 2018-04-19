@@ -26,15 +26,36 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-.in {
+table {
   display: inline-block;
-  padding-left: 400px;
+  padding-left: 200px;
+  padding-bottom: 20px;
 }
 th{
   padding: 50px;
   text-decoration: underline;
+  font-size: 30px;
+  padding-bottom: 15px;
+  font-family: 'Gugi', cursive;
 }
 td{
   padding: 20px;
   border: solid;
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Gamja Flower', cursive;
 }
+.no{
+  border: none;
+}
+.edit{
+  padding-left: 300px;
+  padding-top: 70px;
+}
+.form-head{
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  font-weight: bold;
+}
+
