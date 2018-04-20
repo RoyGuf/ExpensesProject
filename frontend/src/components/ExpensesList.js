@@ -17,7 +17,6 @@ class ExpensesList extends Component {
   componentDidMount(){}
   
   render() {
-    var expenses = this. state.expenses;
     var handleEdit = this.props.handleEdit;
     var OnDelete = this.props.OnDelete;
     return (
